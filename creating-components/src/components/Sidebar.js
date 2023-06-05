@@ -1,5 +1,18 @@
 function Sidebar(props) {
-    return <h2>{props.greet} from Sidebar</h2>;
+    const asideStyle = {
+        background: "azure",
+        width: "calc(30% - 10px)",
+        marginLeft: "10px",
     }
-    
-    export default Sidebar;
+
+    return (
+        <aside
+            style={asideStyle} 
+            className="sidebar-component"
+        >
+            <h2>{props.greet} from Sidebar</h2>
+        </aside>
+    )
+}
+
+export default Sidebar;
