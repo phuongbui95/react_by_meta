@@ -1,3 +1,6 @@
+import React from 'react';
+import './App.css';
+
 // import avatar from './avatar.png';
 // import Header from './components/Header';
 // import Main from './components/Main';
@@ -17,7 +20,7 @@
 import HomePage from './components/HomePage';
 import AboutMe from './components/AboutMe';
 import {Routes, Route} from 'react-router-dom';
-import './App.css';
+
 
 // function Logo(props) {
 //   const userPic = <img src={avatar} />;
